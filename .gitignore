@@ -1,0 +1,102 @@
+# Ignore all files starting with a dot (except .gitignore and .git)
+.*.swp
+*.pyc
+*.class
+
+# Ignore virtualenv folder
+.venv/
+
+# # Ignore pipenv folder
+# Pipfile*
+# Pipfile.lock*
+
+# Ignore logs folder
+logs/
+
+# Ignore build and dist folders
+build/
+dist/
+
+# Ignore .idea folder (for PyCharm IDE)
+.idea/
+
+# Ignore .vscode folder (for Visual Studio Code)
+.vscode/
+
+# Ignore .DS_Store (MacOS specific)
+.DS_Store
+
+# Ignore .env files
+.env*
+
+# Ignore .env.example files
+.env.example*
+
+# Ignore .env.development files
+.env.development*
+
+# Ignore .env.production files
+.env.production*
+
+# Ignore .env.test files
+.env.test*
+
+# Ignore .env.local files
+.env.local*
+
+# Ignore .env.staging files
+.env.staging*
+
+# Ignore .env.production.local files
+.env.production.local*
+
+# Ignore .env.test.local files
+.env.test.local*
+
+# Ignore .env.staging.local files
+.env.staging.local*
+
+# Ignore .env.development.local files
+.env.development.local*
+
+# Ignore .env.production.staging files
+.env.production.staging*
+
+# Ignore .env.test.staging files
+.env.test.staging*
+
+# Ignore .env.development.staging files
+.env.development.staging*
+
+# Ignore .env.production.development files
+.env.production.development*
+
+# Ignore .env.test.development files
+.env.test.development*
+
+# Ignore .env.staging.development files
+.env.staging.development*
+
+# Ignore .env.production.test files
+.env.production.test*
+
+# Ignore .env.staging.test files
+.env.staging.test*
+
+# Ignore .env.development.test files
+.env.development.test*
+
+# Ignore .env.production.staging.test files
+.env.production.staging.test*
+
+# Ignore .env.development.staging.test files
+.env.development.staging.test*
+
+# Ignore .env.production.development.test files
+.env.production.development.test*
+
+# Ignore .env.staging.development.test files
+.env.staging.development.test*
+
+# Ignore .env.production.staging.development.test files
+.env.production.staging.development.test*
